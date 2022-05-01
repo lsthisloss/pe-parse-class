@@ -1,5 +1,5 @@
 # pe-parse-class
-Slution how to read import table from executable files.
+Solution how to read import table from executable files using Win Api.
 
 First step: creating named shared memory with CreateFile() and open it for read, then mapping it with CreateFileMapping().
 
